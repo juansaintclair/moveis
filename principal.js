@@ -1,3 +1,3 @@
-var banners = ["Os melhores do Brasil!", "Qualidade e preço baixo!"]; var bannerAtual = 0;
-function trocaBanner() { bannerAtual = (bannerAtual + 1) % 2; document.querySelector(’h2#mensagem’).textContent = banners[bannerAtual]; }
-setInterval(trocaBanner, 2000)
+var banners = ["Os melhores do Brasil!", "Qualidade e preï¿½o baixo!"]; var bannerAtual = 0;
+function trocaBanner() { bannerAtual = (bannerAtual + 1) % 2; document.querySelector(ï¿½h2#mensagemï¿½).textContent = banners[bannerAtual]; }
+setInterval(trocaBanner, 1000)
